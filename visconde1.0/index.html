@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            place-content: center;
+            background-color: #012b63;
+            padding: 20px;
+
+        }
+        #titulo{ 
+            display: grid;
+            place-content: center;    
+        }
+        #horario{
+            width: 360px;
+            height: 300px;
+            margin: 15px;
+            background-color: #00000080;
+            color: aliceblue;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 17.5px;
+
+        }
+        #botao{
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(165, 165, 165);
+            color: rgb(2, 2, 2);
+            z-index: 1;
+            max-width: 270px;
+            height: 70px;
+            font-size: 23px;
+            border-radius: 5px;
+            border-width: 8px;
+            border-color: rgb(31, 30, 30);
+            border-style: inset;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            font-family: 'Silkscreen', cursive;
+        }
+        
+        #botao:hover{
+            border-width: 1px;
+        }
+        #termos{
+            color:rgb(1, 136, 226);
+        }
+        @media screen and (min-width: 200px){
+            #botao{
+            width: 200px;
+            height: 60px;
+            }
+        }
+        @media screen and (min-width: 350px){
+            #botao{
+            width: 250px;
+            height: 60px;
+            }
+        }
+        @media screen and (min-width: 500px){
+            #botao{
+            width: 300px;
+            height: 60px;
+            }
+        }
+        @media screen and (min-width: 550px){
+            #botao{
+            width: 350px;
+            height: 60px;
+            }
+        }
+
+
+        
+        @media screen and (min-height: 400px){
+            #titulo{
+            margin-top: 0px;
+            }
+        }
+        @media screen and (min-height: 450px){
+            #titulo{
+            margin-top: 0px;
+            }
+        }
+        @media screen and (min-height: 500px){
+            #titulo{
+            margin-top: 0px;
+            }
+        }
+        @media screen and (min-height: 550px){
+            #titulo{
+            margin-top: 0px;
+            }
+        }
+        @media screen and (min-height: 600px){
+            #titulo{
+            margin-top: 35px;
+            }
+        }
+        @media screen and (min-height: 650px){
+            #titulo{
+            margin-top: 65px;
+            }
+        }
+        @media screen and (min-height: 700px){
+            #titulo{
+            margin-top: 80px;
+            }
+        }
+        @media screen and (min-height: 750px){
+            #titulo{
+            margin-top: 100px;
+            }
+        }
+        @media screen and (min-height: 800px){
+            #titulo{
+            margin-top: 200px;
+            }
+        }
+        @media screen and (min-height: 850px){
+            #titulo{
+            margin-top: 200px;
+            }
+        }
+        @media screen and (min-height: 900px){
+            #titulo{
+            margin-top: 200px;
+            }
+        }
+        @media screen and (min-height: 950px){
+            #titulo{
+            margin-top: 200px;
+            }
+        }
+        @media screen and (min-height: 1000px){
+            #titulo{
+            margin-top: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="titulo">
+        <h1 style="font-size: 60px; color: goldenrod; text-align: center;">Copa Visconde</h1>
+        <div id="horario">
+            <h2 style="font-size: 30px; text-align: center;">Regras:</h2><br>
+                <li style="text-align: left; margin-left: 33px;">Ter no mínimo 15 jogadores por time</li><br>
+                <li style="text-align: left; margin-left: 33px;">Usar uniforme com número na camisa</li><br>
+                <li style="text-align: left; margin-left: 33px;">Sem confusão, é um ambiente famíliar</li>              
+                <br>
+                <br>
+                <br>
+                <a id="termos" href="#">Termos do evento</a>
+        </div>
+        <br>
+        <a style="margin-left: auto; margin-right: auto;" href="formulario.html"><button id="botao">Inscreva-se</button></a>
+    </div>
+    
+</body>
+</html>
